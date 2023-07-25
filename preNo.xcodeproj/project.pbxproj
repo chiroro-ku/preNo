@@ -13,6 +13,11 @@
 		F612E33F2A704193008DA11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F612E33D2A704193008DA11D /* Main.storyboard */; };
 		F612E3412A704198008DA11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F612E3402A704198008DA11D /* Assets.xcassets */; };
 		F612E3442A704198008DA11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F612E3422A704198008DA11D /* LaunchScreen.storyboard */; };
+		F612E3502A7041EE008DA11D /* PictoBoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612E34B2A7041ED008DA11D /* PictoBoneView.swift */; };
+		F612E3512A7041EE008DA11D /* PictoFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612E34C2A7041ED008DA11D /* PictoFaceView.swift */; };
+		F612E3522A7041EE008DA11D /* PictoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612E34D2A7041ED008DA11D /* PictoView.swift */; };
+		F612E3532A7041EE008DA11D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612E34E2A7041EE008DA11D /* EditView.swift */; };
+		F612E3542A7041EE008DA11D /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612E34F2A7041EE008DA11D /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F612E3402A704198008DA11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F612E3432A704198008DA11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F612E3452A704198008DA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F612E34B2A7041ED008DA11D /* PictoBoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictoBoneView.swift; sourceTree = "<group>"; };
+		F612E34C2A7041ED008DA11D /* PictoFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictoFaceView.swift; sourceTree = "<group>"; };
+		F612E34D2A7041ED008DA11D /* PictoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictoView.swift; sourceTree = "<group>"; };
+		F612E34E2A7041EE008DA11D /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F612E34F2A7041EE008DA11D /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		F612E3362A704193008DA11D /* preNo */ = {
 			isa = PBXGroup;
 			children = (
+				F612E34F2A7041EE008DA11D /* Button.swift */,
+				F612E34E2A7041EE008DA11D /* EditView.swift */,
+				F612E34B2A7041ED008DA11D /* PictoBoneView.swift */,
+				F612E34C2A7041ED008DA11D /* PictoFaceView.swift */,
+				F612E34D2A7041ED008DA11D /* PictoView.swift */,
 				F612E3372A704193008DA11D /* AppDelegate.swift */,
 				F612E3392A704193008DA11D /* SceneDelegate.swift */,
 				F612E33B2A704193008DA11D /* ViewController.swift */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F612E3512A7041EE008DA11D /* PictoFaceView.swift in Sources */,
+				F612E3502A7041EE008DA11D /* PictoBoneView.swift in Sources */,
+				F612E3522A7041EE008DA11D /* PictoView.swift in Sources */,
+				F612E3542A7041EE008DA11D /* Button.swift in Sources */,
 				F612E33C2A704193008DA11D /* ViewController.swift in Sources */,
+				F612E3532A7041EE008DA11D /* EditView.swift in Sources */,
 				F612E3382A704193008DA11D /* AppDelegate.swift in Sources */,
 				F612E33A2A704193008DA11D /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GVCNFTUVQC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = preNo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GVCNFTUVQC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = preNo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
